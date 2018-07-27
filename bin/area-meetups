@@ -1,5 +1,6 @@
-class LocalAreaMeetups::CLI
-  def call
-    puts "Local Area Meetups: "
-  end
-end
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "area"
+
+LocalArea Meetups::CLI.new.call
