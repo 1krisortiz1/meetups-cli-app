@@ -1,0 +1,5 @@
+class LocalAreaMeetups::CLI
+  def call
+    puts "Local Area Meetups: "
+  end
+end
