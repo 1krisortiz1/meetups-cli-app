@@ -5,6 +5,7 @@ class LocalAreaMeetup
   end
 
   def list_meetups
+    puts "Your local area Meetups: "
 
   end
 
