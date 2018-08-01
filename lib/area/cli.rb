@@ -15,7 +15,14 @@ class LocalAreaMeetup
       input = gets.strip.downcase
 
       if input.to_i > 0
-        the_meetup =
+        the_meetup = @meetups[input.to_i-1]
+        puts "#{meetup.name} - #{meetup.date} - #{meetup.time} #{meetup.location}"
+      elsif input == "list"
+        list_meetup
+      else
+        puts "Not sure what you want, list or exit."
+      end
+    end
   end
 
   def goodbye
